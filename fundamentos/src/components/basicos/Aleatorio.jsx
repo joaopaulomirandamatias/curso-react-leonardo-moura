@@ -9,9 +9,9 @@ export default function Aleatorio(props){
     return (
         <div>
             <h1>Valor Aleatório</h1>
-            <p>valor Mínimo: <strong> {props.min} </strong></p>
-            <p>valor Máximo: <strong> {props.max} </strong></p>
-            <p>O resultado é: {result}</p>
+            <p><strong>Mínimo:</strong> {props.min} </p>
+            <p><strong> Máximo: </strong>  {props.max}</p>
+            <p> <strong>Resultado </strong> {result}</p>
         </div>
     )
 }
